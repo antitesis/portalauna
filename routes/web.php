@@ -14,7 +14,7 @@
 
 Route::get('/', 'ServicioController@show');
 
-Route::group(['prefix' => 'admin'], function()
+Route::group(['prefix' => 'n1md9'], function()
 {
 	Route::resource('perfils','PerfilController');
 	Route::resource('sedes','SedeController');
@@ -74,4 +74,4 @@ Route::group(['prefix' => 'servicios'], function()
 Auth::routes();
 
 Route::get('/home', 'HomeController@indexuser')->name('home');
-Route::get('/admin', 'HomeController@indexadmin')->name('admin');
+Route::get('/n1md9', 'HomeController@indexadmin')->name('admin');

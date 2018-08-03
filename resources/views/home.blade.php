@@ -101,7 +101,7 @@
                                             </div>   
                                         </div>
                                         <div class="footer">
-                                            <p>{{ $servicio->descripcion }}</p>
+                                            
                                         </div>
                                     </div>
                                 </div>

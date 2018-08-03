@@ -22,7 +22,7 @@
 					<th>Nombre</th>
 					<th>Abreviatura</th>
 					<th>Desc</th>
-					<th>Efecto</th>
+					<th>DescAlt1</th>
 					<th>Imagen</th>
 					<th>Icono</th>
 					<th>Video</th>
@@ -36,7 +36,7 @@
 							<td>{{ $srvvideot->nombre }}</td>
 							<td>{{ $srvvideot->abreviatura }}</td>
 							<td data-toggle="tooltip" data-placement="top" title="{{ $srvvideot->descripcion }}">Desc</td>
-							<td data-toggle="tooltip" data-placement="top" title="{{ $srvvideot->descripcionAlt1 }}">Efecto</td>
+							<td data-toggle="tooltip" data-placement="top" title="{{ $srvvideot->descripcionAlt1 }}">DescAlt1</td>
 							<td data-toggle="tooltip" data-placement="top" title="{{ $srvvideot->imagen }}">Ver</td>
 							<td data-toggle="tooltip" data-placement="top" title="{{ $srvvideot->icono }}">Ver</td>
 							<td data-toggle="tooltip" data-placement="top" title="{{ $srvvideot->video }}">Ver</td>

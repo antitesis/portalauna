@@ -38,7 +38,7 @@ class RegisterController extends Controller
 
         if($tipo == 'admin')
         {
-            return '/admin';
+            return '/n1md9';
         }
         else
         {

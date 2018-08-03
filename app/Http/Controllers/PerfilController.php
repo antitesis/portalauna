@@ -94,7 +94,7 @@ class PerfilController extends Controller
 
         $perfil->save();
 
-        flash::warning('El usuario ' . $perfil->nombre . ' ha sido editado con exito');
+        flash::warning('El perfil ' . $perfil->nombre . ' ha sido editado con exito');
 
         return redirect()->action('PerfilController@index');
     }
